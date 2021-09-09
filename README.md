@@ -1,0 +1,1 @@
+Este é meu primeiro projeto em HTML. É uma simples calculadora de IMC, no qual uso JavaScript para fazer a lógica.
