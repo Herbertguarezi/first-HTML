@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Calculadora IMC</title> 
+        <link rel="stylesheet" href="/Calculadora_IMC/style.css">
+    </head>
+    <body>
+        <div class="conteiner">
+            <div class="box glass">Calculadora Imc</div>
+        </div>
+        <div class="sla glass">
+            <input type="text" class="imputs" id="txtNome" placeholder="Digite seu nome:"/>
+            <input type="number" class="imputs" id="numPeso" placeholder="Digite seu peso:"/>
+            <input type="number" class="imputs" id="numAltura" placeholder="Digite sua altura"/>
+            <button class="buttons"  type="button" id="calcularIMC">Calcular</button>
+            <button class="buttons" type="button" id="lista">Gerar lista</button>
+        </div>
+        <div class="sla glass">
+        <p>
+            Nome: <span id="nome"></span> <br/>
+            Peso: <span id="peso"></span> <br/>
+            Altura: <span id="altura"></span> <br/>
+            IMC: <span id="imc"></span> <br/>
+            Situação: <span id="situacao"></span>
+        </p>
+        </div>
+        <div class="sla ">
+            <ol id="listaNumerada"></ol>
+        </div>
+    </body>
+    <script src="js/funcoes.js"></script>
+    <script src="js/controller.js"></script> 
+</html>
